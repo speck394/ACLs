@@ -1,4 +1,3 @@
-delete family inet filter TEST
 firewall {
     family inet {
         /* 11-9-2012-update */
