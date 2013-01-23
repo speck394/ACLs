@@ -1,7 +1,7 @@
 firewall {
     family inet {
         /* 11-9-2012-update */
-        filter TEST {
+        replace:    filter TEST {
             term 1 {
                 from {
                     source-address {
