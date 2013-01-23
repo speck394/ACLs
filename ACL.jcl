@@ -27,6 +27,7 @@ firewall {
                     icmp-type [ echo-reply echo-request ];
                 }
                 then accept;
+                then log
             }
         }
     }
